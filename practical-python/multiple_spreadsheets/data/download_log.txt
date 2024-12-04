@@ -1,0 +1,14 @@
+.LOG
+
+15:57 29/08/2024
+Unable to download data prior to October 2023 due to HTTP 503 error.
+
+16:37 29/08/2024
+503 error resolved
+
+16:43 29/08/2024
+Data downloaded back to April 2023
+
+
+15:02 30/08/2024
+Data downloaded back to April 2021
