@@ -1,0 +1,18 @@
+[project]
+name = "polar-exploration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=5.5.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "polars>=1.18.0",
+    "pyarrow>=18.1.0",
+    "pyodbc>=5.2.0",
+    "ruff>=0.8.4",
+    "sqlalchemy>=2.0.36",
+]
