@@ -1,4 +1,6 @@
+#
 # Type assignment
+#
 a = str("123")
 b = float(2)
 c = int(1.9) #just throws away the .9; not rounded!
@@ -75,3 +77,7 @@ a = float(a)
 print(type(a)) 			#output:<class 'float'>
 
 #b = int("kiwi")			#output: ValueError: invalid literal for int() with base 10: 'kiwi'
+
+#
+# Dicts
+#
