@@ -98,11 +98,12 @@ print(type(a)) 			#output:<class 'int'>
 a = float(a)
 print(type(a)) 			#output:<class 'float'>
 
-#b = int("kiwi")			#output: ValueError: invalid literal for int() with base 10: 'kiwi'
+#b = int("kiwi")		#output: ValueError: invalid literal for int() with base 10: 'kiwi'
 
 #
 # Dicts
 #
+
 SCW_basic_info={
 	"org_code": "0DF",
 	"short_name": "SCW CSU",
@@ -118,9 +119,9 @@ print(type(SCW_basic_info["year_opened"])) 	#output: <class 'int'>
 print(SCW_basic_info["org_code"])			#output: "0DF"
 print(len(SCW_basic_info))					#output: 6
 
-SCW_basic_info["number_of_staff"] = 1000
+SCW_basic_info["number_of_staff"] = 1000	#we can easily add a new key and value at the same time
 
 print(len(SCW_basic_info))					#output: 7
 
 SCW_basic_info["number_of_staff"] += 1 		#we hired a new member of staff
-print(SCW_basic_info["number_of_staff"])
+print(SCW_basic_info["number_of_staff"])	#output: 1001
