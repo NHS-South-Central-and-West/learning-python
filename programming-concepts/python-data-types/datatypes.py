@@ -62,8 +62,9 @@ print(str_repeated)          #output: Hello SCW!Hello SCW!Hello SCW!
 
 print(len(str_a))  			 #output: 5
 print(str_a[0])				 #output: H
-print(str_a[0:1])			 #output: Hel (give me 3 characters starting at 0)
+print(str_a[0:3])			 #output: Hel (give me 3 characters starting at 0)
 print(str_a[3:])			 #output: lo (give me everything starting at 3)
+print(str_a[:5])			 #output: Hello (give me the first 5 characters)
 
 #
 # Lists
