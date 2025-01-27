@@ -1,3 +1,7 @@
+#
+# Jonas Willemsen January 2025
+#
+
 import numpy
 
 #
